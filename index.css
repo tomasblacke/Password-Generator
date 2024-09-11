@@ -1,3 +1,13 @@
+/* Estilos para pantallas de celular */
+@media only screen and (max-width: 600px) {
+    .body {
+        max-width: 100%; /* Ocupa todo el ancho de la pantalla */
+        padding: 10px;
+        border-radius: 0; /* Quita los bordes redondeados para pantallas pequeñas */
+        border: none; /* Elimina los bordes */
+    }
+}
+
 .wrapper{
     background: #1F2937;
     display: flex;
